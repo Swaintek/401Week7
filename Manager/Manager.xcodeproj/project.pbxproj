@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85AD238A1D401E56006A27DD /* BookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85AD23891D401E56006A27DD /* BookViewController.m */; };
+		85AD238D1D402935006A27DD /* AvailabilityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85AD238C1D402935006A27DD /* AvailabilityViewController.m */; };
+		85AD23901D403419006A27DD /* DateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85AD238F1D403419006A27DD /* DateViewController.m */; };
 		C9E358161D3EE32000434DA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E358151D3EE32000434DA4 /* main.m */; };
 		C9E358191D3EE32000434DA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E358181D3EE32000434DA4 /* AppDelegate.m */; };
 		C9E3581C1D3EE32000434DA4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E3581B1D3EE32000434DA4 /* ViewController.m */; };
@@ -30,6 +33,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		85AD23881D401E56006A27DD /* BookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookViewController.h; sourceTree = "<group>"; };
+		85AD23891D401E56006A27DD /* BookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookViewController.m; sourceTree = "<group>"; };
+		85AD238B1D402935006A27DD /* AvailabilityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvailabilityViewController.h; sourceTree = "<group>"; };
+		85AD238C1D402935006A27DD /* AvailabilityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvailabilityViewController.m; sourceTree = "<group>"; };
+		85AD238E1D403419006A27DD /* DateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateViewController.h; sourceTree = "<group>"; };
+		85AD238F1D403419006A27DD /* DateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateViewController.m; sourceTree = "<group>"; };
 		C9E358111D3EE32000434DA4 /* Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Manager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9E358151D3EE32000434DA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C9E358171D3EE32000434DA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -138,6 +147,12 @@
 				C9E358511D3F015200434DA4 /* HotelsViewController.m */,
 				C9E358531D3F018600434DA4 /* RoomsViewController.h */,
 				C9E358541D3F018600434DA4 /* RoomsViewController.m */,
+				85AD23881D401E56006A27DD /* BookViewController.h */,
+				85AD23891D401E56006A27DD /* BookViewController.m */,
+				85AD238B1D402935006A27DD /* AvailabilityViewController.h */,
+				85AD238C1D402935006A27DD /* AvailabilityViewController.m */,
+				85AD238E1D403419006A27DD /* DateViewController.h */,
+				85AD238F1D403419006A27DD /* DateViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -214,6 +229,7 @@
 				TargetAttributes = {
 					C9E358101D3EE32000434DA4 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = Q6US9WZLNC;
 					};
 				};
 			};
@@ -259,11 +275,14 @@
 				C9E358521D3F015200434DA4 /* HotelsViewController.m in Sources */,
 				C9E358481D3EF38700434DA4 /* Room+CoreDataProperties.m in Sources */,
 				C9E3584B1D3EF38700434DA4 /* Reservation.m in Sources */,
+				85AD23901D403419006A27DD /* DateViewController.m in Sources */,
 				C9E3581C1D3EE32000434DA4 /* ViewController.m in Sources */,
 				C9E358191D3EE32000434DA4 /* AppDelegate.m in Sources */,
 				C9E3584A1D3EF38700434DA4 /* Reservation+CoreDataProperties.m in Sources */,
+				85AD238D1D402935006A27DD /* AvailabilityViewController.m in Sources */,
 				C9E3584F1D3EF38700434DA4 /* Guest.m in Sources */,
 				C9E3584C1D3EF38700434DA4 /* Hotel+CoreDataProperties.m in Sources */,
+				85AD238A1D401E56006A27DD /* BookViewController.m in Sources */,
 				C9E358161D3EE32000434DA4 /* main.m in Sources */,
 				C9E3585C1D3F253D00434DA4 /* NSManagedObject+Context.m in Sources */,
 				C9E3584D1D3EF38700434DA4 /* Hotel.m in Sources */,
@@ -375,6 +394,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Manager/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -387,6 +407,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Manager/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
