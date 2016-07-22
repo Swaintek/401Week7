@@ -10,6 +10,7 @@
 //
 
 #import "Reservation.h"
+#import "Guest.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -18,7 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, nonatomic, retain) NSDate *endDate;
 @property (nullable, nonatomic, retain) NSDate *startDate;
 @property (nullable, nonatomic, retain) Room *room;
-@property (nullable, nonatomic, retain) NSManagedObject *guest;
+@property (nullable, nonatomic, retain) Guest *guest;
 
 @end
 

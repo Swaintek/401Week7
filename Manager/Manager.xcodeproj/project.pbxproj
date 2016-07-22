@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		850F44661D41803400F61B32 /* ManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 850F44651D41803400F61B32 /* ManagerTests.m */; };
+		850F446F1D42BDF300F61B32 /* LookupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 850F446E1D42BDF100F61B32 /* LookupViewController.m */; };
 		85AD238A1D401E56006A27DD /* BookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85AD23891D401E56006A27DD /* BookViewController.m */; };
 		85AD238D1D402935006A27DD /* AvailabilityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85AD238C1D402935006A27DD /* AvailabilityViewController.m */; };
 		85AD23901D403419006A27DD /* DateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85AD238F1D403419006A27DD /* DateViewController.m */; };
@@ -32,7 +34,22 @@
 		C9E358621D3F278D00434DA4 /* room.png in Resources */ = {isa = PBXBuildFile; fileRef = C9E358611D3F278D00434DA4 /* room.png */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		850F44681D41803400F61B32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9E358091D3EE32000434DA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9E358101D3EE32000434DA4;
+			remoteInfo = Manager;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		850F44631D41803100F61B32 /* ManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		850F44651D41803400F61B32 /* ManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManagerTests.m; sourceTree = "<group>"; };
+		850F44671D41803400F61B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		850F446D1D42BDF100F61B32 /* LookupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LookupViewController.h; sourceTree = "<group>"; };
+		850F446E1D42BDF100F61B32 /* LookupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LookupViewController.m; sourceTree = "<group>"; };
 		85AD23881D401E56006A27DD /* BookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookViewController.h; sourceTree = "<group>"; };
 		85AD23891D401E56006A27DD /* BookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookViewController.m; sourceTree = "<group>"; };
 		85AD238B1D402935006A27DD /* AvailabilityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvailabilityViewController.h; sourceTree = "<group>"; };
@@ -77,6 +94,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		850F44601D41803100F61B32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C9E3580E1D3EE32000434DA4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -87,10 +111,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		850F44641D41803300F61B32 /* ManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				850F44651D41803400F61B32 /* ManagerTests.m */,
+				850F44671D41803400F61B32 /* Info.plist */,
+			);
+			path = ManagerTests;
+			sourceTree = "<group>";
+		};
 		C9E358081D3EE32000434DA4 = {
 			isa = PBXGroup;
 			children = (
 				C9E358131D3EE32000434DA4 /* Manager */,
+				850F44641D41803300F61B32 /* ManagerTests */,
 				C9E358121D3EE32000434DA4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				C9E358111D3EE32000434DA4 /* Manager.app */,
+				850F44631D41803100F61B32 /* ManagerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -141,6 +176,8 @@
 		C9E3582F1D3EE47500434DA4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				850F446D1D42BDF100F61B32 /* LookupViewController.h */,
+				850F446E1D42BDF100F61B32 /* LookupViewController.m */,
 				C9E3581A1D3EE32000434DA4 /* ViewController.h */,
 				C9E3581B1D3EE32000434DA4 /* ViewController.m */,
 				C9E358501D3F015200434DA4 /* HotelsViewController.h */,
@@ -201,6 +238,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		850F44621D41803100F61B32 /* ManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 850F446A1D41803500F61B32 /* Build configuration list for PBXNativeTarget "ManagerTests" */;
+			buildPhases = (
+				850F445F1D41803100F61B32 /* Sources */,
+				850F44601D41803100F61B32 /* Frameworks */,
+				850F44611D41803100F61B32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				850F44691D41803400F61B32 /* PBXTargetDependency */,
+			);
+			name = ManagerTests;
+			productName = ManagerTests;
+			productReference = 850F44631D41803100F61B32 /* ManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		C9E358101D3EE32000434DA4 /* Manager */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9E3582B1D3EE32000434DA4 /* Build configuration list for PBXNativeTarget "Manager" */;
@@ -227,6 +282,10 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "David Swaintek";
 				TargetAttributes = {
+					850F44621D41803100F61B32 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C9E358101D3EE32000434DA4;
+					};
 					C9E358101D3EE32000434DA4 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = Q6US9WZLNC;
@@ -247,11 +306,19 @@
 			projectRoot = "";
 			targets = (
 				C9E358101D3EE32000434DA4 /* Manager */,
+				850F44621D41803100F61B32 /* ManagerTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		850F44611D41803100F61B32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C9E3580F1D3EE32000434DA4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -267,6 +334,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		850F445F1D41803100F61B32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				850F44661D41803400F61B32 /* ManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C9E3580D1D3EE32000434DA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -276,6 +351,7 @@
 				C9E358481D3EF38700434DA4 /* Room+CoreDataProperties.m in Sources */,
 				C9E3584B1D3EF38700434DA4 /* Reservation.m in Sources */,
 				85AD23901D403419006A27DD /* DateViewController.m in Sources */,
+				850F446F1D42BDF300F61B32 /* LookupViewController.m in Sources */,
 				C9E3581C1D3EE32000434DA4 /* ViewController.m in Sources */,
 				C9E358191D3EE32000434DA4 /* AppDelegate.m in Sources */,
 				C9E3584A1D3EF38700434DA4 /* Reservation+CoreDataProperties.m in Sources */,
@@ -294,6 +370,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		850F44691D41803400F61B32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9E358101D3EE32000434DA4 /* Manager */;
+			targetProxy = 850F44681D41803400F61B32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		C9E358251D3EE32000434DA4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -306,6 +390,30 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		850F446B1D41803500F61B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = spaceoutlaw.ManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Manager.app/Manager";
+			};
+			name = Debug;
+		};
+		850F446C1D41803500F61B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = spaceoutlaw.ManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Manager.app/Manager";
+			};
+			name = Release;
+		};
 		C9E358291D3EE32000434DA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -419,6 +527,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		850F446A1D41803500F61B32 /* Build configuration list for PBXNativeTarget "ManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				850F446B1D41803500F61B32 /* Debug */,
+				850F446C1D41803500F61B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		C9E3580C1D3EE32000434DA4 /* Build configuration list for PBXProject "Manager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

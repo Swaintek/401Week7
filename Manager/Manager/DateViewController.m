@@ -36,9 +36,9 @@
     self.endPicker = [[UIDatePicker alloc]init];
     self.endPicker.datePickerMode = UIDatePickerModeDate;
     
-    self.endPicker.frame = CGRectMake(0.0, 84.0, CGRectGetWidth(self.view.frame), CGRectGetHeight(self.view.frame));
+    self.endPicker.frame = CGRectMake(0.0, 84.0, CGRectGetWidth(self.view.frame), 100.0);
     
-    [self.view addSubview:self.endPicker];
+    [self.view addSubview:self.endPicker]; 
     
 }
 

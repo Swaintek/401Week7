@@ -140,7 +140,7 @@
                                                               toItem:self.lastNameField
                                                            attribute:NSLayoutAttributeTop
                                                           multiplier:1.0
-                                                            constant:40.0];
+                                                            constant:20.0];
     
     NSLayoutConstraint *trailing = [NSLayoutConstraint constraintWithItem:self.emailField
                                                                 attribute:NSLayoutAttributeTrailing

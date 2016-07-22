@@ -11,6 +11,7 @@
 #import "DateViewController.h"
 #import "BookViewController.h"
 #import "AppDelegate.h"
+#import "LookupViewController.h" 
 
 @interface ViewController ()
 
@@ -213,7 +214,7 @@
 
 - (void)lookupButtonSelected:(UIButton *)sender
 {
-    NSLog(@"Lookup...");
+    [self.navigationController pushViewController:[[LookupViewController alloc]init] animated:YES];
 }
 
 
